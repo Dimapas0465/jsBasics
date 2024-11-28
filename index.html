@@ -7,12 +7,9 @@
 </head>
 <body>
     <h1>Конвертер валют</h1>
-
-    <!-- Поле для вводу суми -->
     <label for="amount">Введіть суму:</label>
     <input type="number" id="amount" placeholder="Введіть суму для конвертації">
 
-    <!-- Вибір валюти для конвертації -->
     <label for="fromCurrency">Виберіть валюту для конвертації:</label>
     <select id="fromCurrency">
         <option value="USD">USD</option>
@@ -20,22 +17,17 @@
         <option value="UAH">UAH</option>
     </select>
 
-    <!-- Вибір цільової валюти -->
     <label for="toCurrency">Виберіть цільову валюту:</label>
     <select id="toCurrency">
         <option value="USD">USD</option>
         <option value="EUR">EUR</option>
         <option value="UAH">UAH</option>
     </select>
-
-    <!-- Кнопка для запуску конвертації -->
     <button onclick="convertCurrency()">Конвертувати</button>
-
-    <!-- Місце для відображення результату -->
+   
     <h2>Результат конвертації:</h2>
     <p id="result"></p>
-
-    <!-- Підключення JavaScript -->
+    
     <script src="script.js"></script>
 </body>
 </html>
